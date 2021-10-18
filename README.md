@@ -13,6 +13,6 @@ The main goal is to write well-structured and standards-compliant markup.
    
    5. Aid in the onboarding of new development team members to new and existing projects.
 
-Code Re-usability:
+      # Code Re-usability:
 
-Code which shares a very similar or identical structure should be written in such a way that it can be used further.
+      Code which shares a very similar or identical structure should be written in such a way that it can be used further.
