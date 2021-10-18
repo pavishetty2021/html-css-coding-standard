@@ -1,4 +1,4 @@
-# html-css-coding-standard
+# HTML-CSS-Coding-Standard
 The main goal is to write well-structured and standards-compliant markup.
 
 # Principles of Standardized Code
