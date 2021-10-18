@@ -1,7 +1,7 @@
 # html-css-coding-standard
 The main goal is to write well-structured and standards-compliant markup.
 
-There are several guiding principles with Code Standards. These represent the core concepts of standardized code.
+# There are several guiding principles with Code Standards. These represent the core concepts of standardized code.
 
    1. Code should be readable and understandable by all members of the team. This includes internal and external developers.
    
