@@ -16,3 +16,7 @@ The main goal is to write well-structured and standards-compliant markup.
       # Code Re-usability:
 
       Code which shares a very similar or identical structure should be written in such a way that it can be used further.
+      
+      # Code Check:
+      
+      Before submitting the code it should be reviewed and checked properly maintaining the above guidelines rules.
