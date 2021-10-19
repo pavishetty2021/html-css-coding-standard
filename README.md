@@ -43,7 +43,8 @@ The main goal is to write well-structured and standards-compliant markup.
     
   # i18n
   
-    Don’t include line breaks within <p> blocks. ie do this:
+    Don’t include line breaks within <p> blocks. 
+    ie do this:
     <p>Blah foo blah</p>
     <p>New paragraph, blah</p>
     
