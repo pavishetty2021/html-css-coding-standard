@@ -83,6 +83,10 @@ The main goal is to write well-structured and standards-compliant markup.
    .datasetlist {}
    .datasetList {}
    .dataset_list {}
+   
+ # Comments
+ 
+   Comments should be used liberally to explain anything that may be unclear at first glance, especially IE workarounds or hacks.
     
   
   
