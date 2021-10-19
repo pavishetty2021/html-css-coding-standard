@@ -31,6 +31,10 @@ The main goal is to write well-structured and standards-compliant markup.
   
     All documents must be using the HTML5 doctype and the <html> element should have a "lang" attribute. The <head> should also at a minimum include "viewport" and "charset"         meta tags.
     
+  # Including meta data
+  
+    Classes should ideally only be used as styling hooks. If you need to include additional data in the HTML document, for example to pass data to JavaScript, then the HTML5         data- attributes should be used.
+    
   # Forms
   
     Form fields must always include a <label> element with a "for" attribute matching the "id" on the input. This helps accessibility by focusing the input when the label is         clicked, it also helps screen readers match labels to their respective inputs.
