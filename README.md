@@ -75,9 +75,11 @@ The main goal is to write well-structured and standards-compliant markup.
    All ids, classes and attributes must be lowercase with hyphens used for separation.
    
    /* GOOD */
+   
    .dataset-list {}
 
    /* BAD */
+   
    .datasetlist {}
    .datasetList {}
    .dataset_list {}
