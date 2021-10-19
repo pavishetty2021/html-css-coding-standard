@@ -20,3 +20,19 @@ The main goal is to write well-structured and standards-compliant markup.
       # Code Check:
       
       Before submitting the code it should be reviewed and checked properly maintaining the above guidelines rules.
+
+# HTML coding standards
+  
+  # Formatting
+     
+     All HTML documents must use two spaces for indentation and there should be no trailing whitespace. HTML5 syntax must be used and all attributes must use double quotes            around attributes.
+      
+  # Doctype and layout
+  
+    All documents must be using the HTML5 doctype and the <html> element should have a "lang" attribute. The <head> should also at a minimum include "viewport" and "charset"         meta tags.
+    
+  # Forms
+  
+    Form fields must always include a <label> element with a "for" attribute matching the "id" on the input. This helps accessibility by focusing the input when the label is         clicked, it also helps screen readers match labels to their respective inputs.
+  
+  
