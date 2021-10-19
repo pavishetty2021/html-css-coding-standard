@@ -52,6 +52,35 @@ The main goal is to write well-structured and standards-compliant markup.
     
     <p>Blah foo blah
     New paragraph, blah</p>
+  
+# CSS coding standards
+ 
+  # Formatting
+  
+   1. All CSS documents must use two spaces for indentation and files should have no trailing whitespace. Other formatting rules:
+   2. Use soft-tabs with a two space indent.
+   3. Use double quotes.
+   4. Use shorthand notation where possible.
+   5. Put spaces after : in property declarations.
+   6. Put spaces before { in rule declarations.
+   7. Use hex color codes #000 unless using rgba().
+   8. Always provide fallback properties for older browsers.
+   9. Use one line per property declaration.
+   10. Always follow a rule with one line of whitespace.
+   11. Always quote url() and @import() contents.
+   12. Do not indent blocks.
+ 
+ # Naming
+ 
+   All ids, classes and attributes must be lowercase with hyphens used for separation.
+   
+   /* GOOD */
+   .dataset-list {}
+
+   /* BAD */
+   .datasetlist {}
+   .datasetList {}
+   .dataset_list {}
     
   
   
