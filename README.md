@@ -40,5 +40,17 @@ The main goal is to write well-structured and standards-compliant markup.
     Form fields must always include a <label> element with a "for" attribute matching the "id" on the input. This helps accessibility by focusing the input when the label is         clicked, it also helps screen readers match labels to their respective inputs.
     Each <input> should have an "id" that is unique to the page. It does not have to match the "name" attribute.
     Forms should take advantage of the new HTML5 input types where they make sense to do so, placeholder attributes should also be included where relevant. Including these can       provided enhancements in browsers that support them such as tailored inputs and keyboards.
+    
+  # i18n
+  
+    Don’t include line breaks within <p> blocks. ie do this:
+    <p>Blah foo blah</p>
+    <p>New paragraph, blah</p>
+    
+    And not:
+    
+    <p>Blah foo blah
+    New paragraph, blah</p>
+    
   
   
