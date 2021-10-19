@@ -103,43 +103,7 @@ The main goal is to write well-structured and standards-compliant markup.
    .dataset-list {}
    .dataset-list-item {}
    .dataset-list-item .download {}
-   In the same vein use classes make the styles more robust, especially where the HTML may change. For example when styling social links:
-
-   <ul class="social">
-     <li><a href="">Twitter</a></li>
-     <li><a href="">Facebook</a></li>
-     <li><a href="">LinkedIn</a></li>
-   </ul>
-   
-   We can use pseudo selectors to keep the HTML clean:
-
-   .social li:nth-child(1) a {
-     background-image: url(twitter.png);
-   }
-
-   .social li:nth-child(2) a {
-     background-image: url(facebook.png);
-   }
-
-   .social li:nth-child(3) a {
-     background-image: url(linked-in.png);
-   }
-   
-   However this will break any time the HTML changes for example if an item is added or removed. Instead we can use class names to ensure the icons always match the elements.
-
-
-   .social .twitter {
-     background-image: url(twitter.png);
-   }
-
-   .social .facebook {
-     background-image: url(facebook.png);
-   }
-
-   .social .linked-in {
-     background-image: url(linked-in.png);
-   }
-   
+  
    Avoid using tag names in selectors as this prevents re-use in other contexts.
 
    /* Cannot use this class on an <ol> or <div> element */
