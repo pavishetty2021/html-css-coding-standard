@@ -70,6 +70,28 @@ The main goal is to write well-structured and standards-compliant markup.
    10. Always follow a rule with one line of whitespace.
    11. Always quote url() and @import() contents.
    12. Do not indent blocks.
+   
+       For example:
+
+         .media {
+           overflow: hidden;
+           color: #fff;
+           background-color: #000; /* Fallback value */
+           background-image: linear-gradient(black, grey);
+         }
+
+         .media .img {
+           float: left;
+           border: 1px solid #ccc;
+         }
+
+         .media .img img {
+           display: block;
+         }
+
+         .media .content {
+           background: #fff url("../images/media-background.png") no-repeat;
+         }
  
  # Naming
  
