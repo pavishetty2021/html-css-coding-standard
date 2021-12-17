@@ -26,17 +26,7 @@ The main goal is to write well-structured and standards-compliant markup.
   # Formatting
      
      All HTML documents must use two spaces for indentation and there should be no trailing whitespace. HTML5 syntax must be used and all attributes must use double quotes            around attributes.
-      Use soft-tabs with a two space indent.
-      Use double quotes.
-      Use shorthand notation where possible.
-      Put spaces after : in property declarations.
-      Put spaces before { in rule declarations.
-      Use hex color codes #000 unless using rgba().
-      Always provide fallback properties for older browsers.
-      Use one line per property declaration.
-      Always follow a rule with one line of whitespace.
-      Always quote url() and @import() contents.
-      Do not indent blocks.
+    
       
   # Doctype and layout
   
